@@ -58,12 +58,40 @@ Esta versão do projeto passou por uma refatoração completa, incluindo:
 
 ---
 
-## 🧪 Como Executar o Projeto
+## ⚠️ Como executar o projeto
 
-### 1️ Clonar o repositório
-```bash
-git clone https://github.com/vgmandira7/FitVale.git
-### 2 Entrar na pasta do projeto
-cd appFitVale
+1. Clonar o repositório
+   ``` bash
+    git clone https://github.com/vgmandira7/FitVale.git
+   ```
+2. Entrar na pasta do projeto.
+   ``` bash
+    cd appFitVale
+   ```
+3. Instalar dependências.
+   ``` bash
+    npm install
+   ```
+4. Importar o arquivo .sql encontrado na raiz desse projeto no MySQL
+   
+5. Ajustar o IP da API no arquivo
+   ``` bash
+   Services/ipConfig.js
+   ```
+6. Ter o XAMPP instalado e manter os serviços Apache e MySQL devidamente iniciados para o funcionamento do servidor e do banco de dados.
+   ``` bash
+    https://www.apachefriends.org/pt_br/download.html
+   ```
+7. Localize o arquivo .zip chamado pam3etim na raiz do projeto, mova-o para a pasta
+   ```bash
+   xampp/htdocs
+   ```
+    e, em seguida, extraia o conteúdo dentro desse diretório.
+
+8. Executar o projeto.
+    ``` bash
+    npm start
+   ```
+
 
 
