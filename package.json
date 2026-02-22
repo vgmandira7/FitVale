@@ -1,0 +1,42 @@
+{
+  "name": "appfitvale",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "axios": "^1.7.2",
+    "babel-preset-expo": "~54.0.10",
+    "date-fns": "^3.6.0",
+    "expo": "^54.0.32",
+    "expo-image-picker": "~17.0.10",
+    "expo-status-bar": "~3.0.9",
+    "pubnub": "^7.6.3",
+    "pubnub-react": "^3.0.2",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-emoji-selector": "^0.2.0",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-paper": "^5.12.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-vector-icons": "^10.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
